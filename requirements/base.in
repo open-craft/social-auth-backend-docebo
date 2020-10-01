@@ -1,0 +1,5 @@
+# Core requirements for using this application
+-c constraints.txt
+
+social-auth-core<2.0.0 ; python_version < "3.0"
+social-auth-core ; python_version > "3"
